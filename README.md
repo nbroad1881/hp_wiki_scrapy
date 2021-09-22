@@ -15,3 +15,15 @@ Here is an example of one line.
 ```
 {"path": "/wiki/Ronald_Weasley", "text": "Ron's wand was damaged in the crash, causing him problems for the entire school year. It backfired when Ron attempted to curse Draco Malfoy in payback for calling Hermione a \"Mudblood\" with the Slug-vomiting Charm, resulting with him burping up slugs and slime. Malfoy's disdain towards Muggle-borns led Ron, Harry, and Hermione to suspect that he was the Heir of Slytherin who opened the Chamber of Secrets that year, unleashing a \"monster\" that began to attack Muggle-born students.\n", "title": "Ronald Weasley - Attempt to curse Malfoy"}
 ```
+
+### Running the scraper
+
+```
+git clone https://github.com/nbroad1881/hp_wiki_scrapy.git
+cd hp_wiki_scrapy
+pip install -r requirements.txt
+cd hp_wiki
+```
+```python
+scrapy crawl hp_spider
+```
